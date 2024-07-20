@@ -13,16 +13,9 @@ body {
 }
 
 #joinBtn {
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 40px 80px;
+    font-size: 36px;
     color: white;
     background-color: #007bff;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#joinBtn:hover {
-    background-color: #0056b3;
-}
+    border-radi
