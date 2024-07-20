@@ -19,6 +19,6 @@ body {
     display: none;
 }
 
-#joinPanel {
+#joinPanel, #hostPanel {
     margin-top: 20px;
 }
