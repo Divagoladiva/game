@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
 
     hostBtn.addEventListener('click', () => {
-        hostPanel.classList.remove('hidden');
         joinPanel.classList.add('hidden');
+        hostPanel.classList.remove('hidden');
         displayPseudos();
     });
 
@@ -37,3 +37,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
         });
     }
 });
+
