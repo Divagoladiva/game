@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Héberger ou Rejoindre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="button-container">
+            <button id="hostBtn">Héberger</button>
+            <button id="joinBtn">Rejoindre</button>
+        </div>
+        <div id="joinPanel" class="hidden">
+            <h2>Rejoindre une Partie</h2>
+            <form id="joinForm">
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" id="pseudo" name="pseudo" required>
+                <button type="submit">Confirmer</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
