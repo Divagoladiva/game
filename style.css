@@ -5,20 +5,24 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #f0f0f0;
 }
 
 .container {
     text-align: center;
 }
 
-.button-container {
-    margin-bottom: 20px;
+#joinBtn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.hidden {
-    display: none;
-}
-
-#joinPanel, #hostPanel {
-    margin-top: 20px;
+#joinBtn:hover {
+    background-color: #0056b3;
 }
